@@ -21,6 +21,7 @@ add_mlir_dialect_library(MLIRLinalgTransforms
   HoistPadding.cpp
   InlineScalarOperands.cpp
   Interchange.cpp
+  Hwacc.cpp
   Loops.cpp
   TransposeMatmul.cpp
   MeshShardingInterfaceImpl.cpp
